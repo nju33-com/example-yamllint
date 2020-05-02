@@ -13,7 +13,7 @@ docker build . -t example-yamllint
 バックグラウンドでコンテナを建てる。
 
 ```bash
-docker run -it --detach --name example-yamllint example-yamllint sleep infinity
+docker run --detach --name example-yamllint example-yamllint sleep infinity
 ```
 
 その後中に入ってアレコレ。
